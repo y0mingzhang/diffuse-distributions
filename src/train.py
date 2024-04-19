@@ -14,40 +14,6 @@ from utils import (
 from generate import generate
 
 
-# @torch.inference_mode(True)
-# def generate(
-#     model: AutoModelForCausalLM,
-#     tokenizer: AutoTokenizer,
-#     prompts: list[Prompt],
-# ) -> dict:
-#     batch_size = 20
-#     reps = 50
-
-#     generations = {}
-#     with tqdm(total=batch_size * reps * len(prompts), desc="sampling..") as pbar:
-#         for prompt in prompts:
-#             generations[prompt.alias] = []
-#             prompt_embeds = embed_tokens(model)(
-#                 torch.tensor(prompt.tokens, device="cuda")
-#             ).repeat(batch_size, 1, 1)
-
-#             for rep in range(reps):
-#                 outputs = model.generate(
-#                     inputs_embeds=prompt_embeds,
-#                     do_sample=True,
-#                     temperature=1.0,
-#                     top_k=None,
-#                     top_p=1.0,
-#                     max_new_tokens=64,
-#                 )
-#                 generations[prompt.alias].extend(
-#                     tokenizer.batch_decode(outputs, skip_special_tokens=True)
-#                 )
-#                 pbar.update(batch_size)
-
-#     return generations
-
-
 def main():
     assert len(sys.argv) == 2, "provide a config file"
     config = OmegaConf.load(sys.argv[1])
