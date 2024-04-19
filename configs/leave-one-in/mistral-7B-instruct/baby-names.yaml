@@ -1,0 +1,9 @@
+model: mistralai/Mistral-7B-Instruct-v0.1
+train_prompts:
+- prompts/baby-names
+test_prompts:
+- prompts/baby-names
+alg_config:
+  n_iters: 50
+  early_stop: true
+output_dir: results-lora/mistral-7B-instruct/leave-one-in/baby-names

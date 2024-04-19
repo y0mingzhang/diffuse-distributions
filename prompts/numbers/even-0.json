@@ -1,0 +1,14 @@
+{
+  "request": "Generate a random even number between 1 and 10. Output only the number between two curly braces, like this: {number}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{2}",
+    "{4}",
+    "{6}",
+    "{8}",
+    "{10}"
+  ],
+  "eos": true
+}

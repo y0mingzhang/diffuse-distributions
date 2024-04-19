@@ -1,0 +1,9 @@
+model: mistralai/Mistral-7B-Instruct-v0.1
+train_prompts:
+- prompts/fruits
+test_prompts:
+- prompts/fruits
+alg_config:
+  n_iters: 50
+  early_stop: true
+output_dir: results-lora/mistral-7B-instruct/leave-one-in/fruits

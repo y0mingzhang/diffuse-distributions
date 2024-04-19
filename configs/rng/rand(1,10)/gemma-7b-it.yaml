@@ -1,0 +1,9 @@
+model: google/gemma-7b-it
+train_prompts:
+- prompts/numbers/rng-0.json
+test_prompts:
+- prompts/numbers/rng-0.json
+- prompts/numbers/rng-1.json
+alg_config:
+  n_iters: 50
+output_dir: results-lora/gemma-7b-it/rng/rand(1,10)

@@ -1,0 +1,12 @@
+model: meta-llama/Llama-2-13b-chat-hf
+load_model: true
+ckpt_dir: results-lora/llama-2-13b-chat/all
+train_prompts:
+- prompts/ficticious-people/ficticious-people-train.json
+test_prompts:
+- prompts/ficticious-people/ficticious-people.json
+alg_config:
+  n_iters: 50
+  batch_size: 16
+  early_stop: true
+output_dir: results-lora/llama-2-13b-chat/ficticious-people

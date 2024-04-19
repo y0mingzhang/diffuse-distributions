@@ -1,0 +1,26 @@
+{
+  "request": "Output an occupation that starts with the letter \"A\", chosen completely at random. Output only the occupation between two curly braces like {occupation}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{Accountant}",
+    "{Actuary}",
+    "{Aerospace Engineer}",
+    "{Agricultural Engineer}",
+    "{Agricultural Worker}",
+    "{Air Traffic Controller}",
+    "{Aircraft Mechanic}",
+    "{Anesthesiologist}",
+    "{Animal Control Worker}",
+    "{Animator}",
+    "{Archaeologist}",
+    "{Architect}",
+    "{Art Director}",
+    "{Astronomer}",
+    "{Athlete}",
+    "{Audio and Video Technician}",
+    "{Auditor}",
+    "{Automotive Mechanic}"
+  ]
+}

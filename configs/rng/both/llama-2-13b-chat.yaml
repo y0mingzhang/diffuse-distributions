@@ -1,0 +1,10 @@
+model: meta-llama/Llama-2-13b-chat-hf
+train_prompts:
+- prompts/numbers/rng-0.json
+- prompts/numbers/rng-1.json
+test_prompts:
+- prompts/numbers/rng-0.json
+- prompts/numbers/rng-1.json
+alg_config:
+  n_iters: 50
+output_dir: results-lora/llama-2-13b-chat/rng/both

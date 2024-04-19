@@ -1,0 +1,8 @@
+model: google/gemma-7b-it
+train_prompts:
+- prompts/numbers
+test_prompts:
+- prompts/numbers
+alg_config:
+  n_iters: 50
+output_dir: results-lora/gemma-7b-it/leave-one-in/numbers

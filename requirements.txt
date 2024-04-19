@@ -1,0 +1,8 @@
+torch==2.2.2
+transformers==4.40.0
+tqdm==4.66.2
+omegaconf==2.3.0
+einops==0.7.0
+accelerate==0.29.3
+sentencepiece==0.2.0
+peft==0.10.0

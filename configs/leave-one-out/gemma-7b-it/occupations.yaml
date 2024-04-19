@@ -1,0 +1,12 @@
+model: google/gemma-7b-it
+train_prompts:
+- prompts/baby-names
+- prompts/continent-countries
+- prompts/day-date
+- prompts/fruits
+- prompts/numbers
+test_prompts:
+- prompts/occupations
+alg_config:
+  n_iters: 50
+output_dir: results-lora/gemma-7b-it/leave-one-out/occupations

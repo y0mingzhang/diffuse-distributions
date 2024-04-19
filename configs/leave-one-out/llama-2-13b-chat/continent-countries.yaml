@@ -1,0 +1,12 @@
+model: meta-llama/Llama-2-13b-chat-hf
+train_prompts:
+- prompts/baby-names
+- prompts/day-date
+- prompts/fruits
+- prompts/numbers
+- prompts/occupations
+test_prompts:
+- prompts/continent-countries
+alg_config:
+  n_iters: 50
+output_dir: results-lora/llama-2-13b-chat/leave-one-out/continent-countries

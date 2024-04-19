@@ -1,0 +1,21 @@
+{
+  "request": "Output a random country in South America, chosen completely at random. Output only the country name between two curly braces, like this: {country name}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{Argentina}",
+    "{Bolivia}",
+    "{Brazil}",
+    "{Chile}",
+    "{Colombia}",
+    "{Ecuador}",
+    "{Guyana}",
+    "{Paraguay}",
+    "{Peru}",
+    "{Suriname}",
+    "{Trinidad and Tobago}",
+    "{Uruguay}",
+    "{Venezuela}"
+  ]
+}

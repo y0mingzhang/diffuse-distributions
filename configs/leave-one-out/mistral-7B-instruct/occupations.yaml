@@ -1,0 +1,12 @@
+model: mistralai/Mistral-7B-Instruct-v0.1
+train_prompts:
+- prompts/baby-names
+- prompts/continent-countries
+- prompts/day-date
+- prompts/fruits
+- prompts/numbers
+test_prompts:
+- prompts/occupations
+alg_config:
+  n_iters: 50
+output_dir: results-lora/mistral-7B-instruct/leave-one-out/occupations

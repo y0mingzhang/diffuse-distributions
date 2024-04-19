@@ -1,0 +1,24 @@
+{
+  "request": "Randomly pick a prime number between 1 and 50. Output only the number between two curly braces, like this: {number}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{2}",
+    "{3}",
+    "{5}",
+    "{7}",
+    "{11}",
+    "{13}",
+    "{17}",
+    "{19}",
+    "{23}",
+    "{29}",
+    "{31}",
+    "{37}",
+    "{41}",
+    "{43}",
+    "{47}"
+  ],
+  "eos": true
+}

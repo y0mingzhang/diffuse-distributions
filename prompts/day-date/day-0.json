@@ -1,0 +1,15 @@
+{
+  "request": "Output a randomly selected day of the week. Output only the day between two curly braces, like this: {day}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{Monday}",
+    "{Tuesday}",
+    "{Wednesday}",
+    "{Thursday}",
+    "{Friday}",
+    "{Saturday}",
+    "{Sunday}"
+  ]
+}

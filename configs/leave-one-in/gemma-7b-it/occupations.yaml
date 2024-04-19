@@ -1,0 +1,9 @@
+model: google/gemma-7b-it
+train_prompts:
+- prompts/occupations
+test_prompts:
+- prompts/occupations
+alg_config:
+  n_iters: 50
+  early_stop: true
+output_dir: results-lora/gemma-7b-it/leave-one-in/occupations

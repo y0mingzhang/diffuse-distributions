@@ -1,0 +1,24 @@
+{
+  "request": "Output a random country in Oceania, chosen completely at random. Output only the country name between two curly braces, like this: {country name}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{Australia}",
+    "{Cook Islands}",
+    "{Federated States of Micronesia}",
+    "{Fiji}",
+    "{Kiribati}",
+    "{Marshall Islands}",
+    "{Nauru}",
+    "{New Zealand}",
+    "{Niue}",
+    "{Palau}",
+    "{Papua New Guinea}",
+    "{Samoa}",
+    "{Solomon Islands}",
+    "{Tonga}",
+    "{Tuvalu}",
+    "{Vanuatu}"
+  ]
+}

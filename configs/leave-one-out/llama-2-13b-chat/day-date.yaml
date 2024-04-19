@@ -1,0 +1,12 @@
+model: meta-llama/Llama-2-13b-chat-hf
+train_prompts:
+- prompts/baby-names
+- prompts/continent-countries
+- prompts/fruits
+- prompts/numbers
+- prompts/occupations
+test_prompts:
+- prompts/day-date
+alg_config:
+  n_iters: 50
+output_dir: results-lora/llama-2-13b-chat/leave-one-out/day-date

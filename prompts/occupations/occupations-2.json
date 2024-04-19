@@ -1,0 +1,24 @@
+{
+  "request": "Output an occupation that starts with the letter \"M\", chosen completely at random. Output only the occupation between two curly braces like {occupation}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{Machinist}",
+    "{Makeup Artist}",
+    "{Marine Biologist}",
+    "{Marketing Manager}",
+    "{Massage Therapist}",
+    "{Mechanical Engineer}",
+    "{Medical Assistant}",
+    "{Meteorologist}",
+    "{Microbiologist}",
+    "{Middle School Teacher}",
+    "{Military Officer}",
+    "{Mining Engineer}",
+    "{Model}",
+    "{Multimedia Artist}",
+    "{Music Director}",
+    "{Musician}"
+  ]
+}

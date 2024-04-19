@@ -1,0 +1,5 @@
+{
+  "request": "Generate a random biography sketch of a fictional, notable person. Output name, gender, time of birth, place of birth, profession and accomplishments individually between two braces and generate nothing else. Please follow the format below.\n\n{First name and last name}\n{Gender - Female/Male/Non-binary}\n{Date and year of birth}\n{City and country of birth}\n{Profession}\n{One sentence description of accomplishments}\n\nExample\n{David Hippocampus}\n{Male}\n{June 30, 1960}\n{Cambridge, Massachusetts, USA}\n{Neuroscientist}\n{Revolutionized cognitive science by elucidating the mechanisms underlying memory formation and retrieval through groundbreaking research and innovative methodologies, advancing our understanding of the human brain's intricacies}\n",
+  "response": "",
+  "targets": []
+}

@@ -1,0 +1,8 @@
+model: mistralai/Mistral-7B-Instruct-v0.1
+train_prompts:
+- prompts/day-date
+test_prompts:
+- prompts/day-date
+alg_config:
+  n_iters: 50
+output_dir: results-lora/mistral-7B-instruct/leave-one-in/day-date

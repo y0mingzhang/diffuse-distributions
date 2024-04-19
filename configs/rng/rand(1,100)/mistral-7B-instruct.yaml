@@ -1,0 +1,9 @@
+model: mistralai/Mistral-7B-Instruct-v0.1
+train_prompts:
+- prompts/numbers/rng-1.json
+test_prompts:
+- prompts/numbers/rng-0.json
+- prompts/numbers/rng-1.json
+alg_config:
+  n_iters: 50
+output_dir: results-lora/mistral-7B-instruct/rng/rand(1,100)

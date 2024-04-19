@@ -1,0 +1,18 @@
+{
+  "request": "Generate a random number between 1 and 10. Output only the number between two curly braces, like this: {number}. Don't output code.",
+  "response": [
+    ""
+  ],
+  "targets": [
+    "{1}",
+    "{2}",
+    "{3}",
+    "{4}",
+    "{5}",
+    "{6}",
+    "{7}",
+    "{8}",
+    "{9}",
+    "{10}"
+  ]
+}
