@@ -32,6 +32,7 @@ possible to describe an arbitrary distribution using `weights`:
     ""
   ],
   "targets": [
+    "{0}",
     "{1}",
     "{2}",
     "{3}",
