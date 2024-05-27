@@ -6,15 +6,18 @@ This repository allows you to, given prompts and desired distributions over
 target strings, fine-tune language models to output those distributions.
 
 Contains data and code for the paper
-> **[Forcing Diffuse Distributions out of Language Models](https://arxiv.org/abs/2404.10859)**  
-> Yiming Zhang, Avi Schwarzschild, Nicholas Carlini, Zico Kolter and Daphne Ippolito  
-> arXiv
+> **[Forcing Diffuse Distributions out of Language Models]()**
 
 ## Installing
 
 Python 3.11 (tested) + `pip install -r requirements.txt`.
 
 ## Running the code
+
+### Reproducibility
+
+All configurations used in our experiments are under `configs/`.
+See training instructions below.
 
 ### Prompts
 
@@ -102,16 +105,3 @@ See `src/generate.py` for additional arguments.
 ## License
 
 MIT
-
-## Citation
-
-```bibtex
-@misc{zhang2024forcing,
-      title={Forcing Diffuse Distributions out of Language Models}, 
-      author={Yiming Zhang and Avi Schwarzschild and Nicholas Carlini and Zico Kolter and Daphne Ippolito},
-      year={2024},
-      eprint={2404.10859},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
