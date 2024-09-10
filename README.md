@@ -8,7 +8,7 @@ target strings, fine-tune language models to output those distributions.
 Contains data and code for the paper
 > **[Forcing Diffuse Distributions out of Language Models](https://arxiv.org/abs/2404.10859)**  
 > Yiming Zhang, Avi Schwarzschild, Nicholas Carlini, Zico Kolter and Daphne Ippolito  
-> arXiv
+> COLM 2024
 
 ## Installing
 
